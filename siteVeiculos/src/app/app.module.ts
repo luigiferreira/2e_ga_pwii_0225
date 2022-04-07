@@ -7,6 +7,9 @@ import { HomeComponent } from './components/home/home.component';
 import { CarrosComponent } from './components/carros/carros.component';
 import { MotosComponent } from './components/motos/motos.component';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
+import { HeaderComponent } from './components/commonts/header/header.component';
+import { MenuComponent } from './components/commonts/menu/menu.component';
+import { FooterComponent } from './components/commonts/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { CadastroComponent } from './components/cadastro/cadastro.component';
     HomeComponent,
     CarrosComponent,
     MotosComponent,
-    CadastroComponent
+    CadastroComponent,
+    HeaderComponent,
+    MenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
